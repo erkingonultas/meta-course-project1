@@ -79,7 +79,6 @@ h1 {
   align-items: right;
   justify-content: right;
   background-color: #e9e9e9;
-  /* background-blend-mode: hard-light; */
   background-image: linear-gradient(
       90deg,
       #e9e9e923 35%,
@@ -207,17 +206,20 @@ opacity: 1;
 
 footer {
   padding-top: 3vh;
-  
+  display: flex;
+  align-items: center;
 }
+
+footer div{
+  flex: 1;
+}
+
 div img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   height: 3vh;
 }
 
 div p {
-  text-align: center;
+  text-align: end;
   font-size: 0.75rem;
   font-style: italic;
   font-weight: 100;
